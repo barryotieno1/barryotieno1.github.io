@@ -1,0 +1,27 @@
+body {
+    color: #414A59;
+}
+
+#justify {
+    text-align: justify;
+    text-justify: inter-word;    
+    padding: 0 20px 0;
+}
+
+#centerTitle {
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    padding-top: 20%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #CC575D;
+}
+
+a {
+    color: #5294E2;
+}
+
+

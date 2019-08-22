@@ -8,11 +8,14 @@ body {
     padding: 0 20px 0;
 }
 
-#centerTitle {
+.centerTitle {
     margin: auto;
-    max-width: 50%;
     text-align: center;
-    padding-top: 20%;
+}
+
+#mainTitle{
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
 }
 
 a:hover {
@@ -24,4 +27,16 @@ a {
     color: #5294E2;
 }
 
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
 
+  display: flex;
+  align-items: center;
+}
+
+.border {
+    border: #414A59;
+    border-style: solid;
+    border-radius: 20px;
+}

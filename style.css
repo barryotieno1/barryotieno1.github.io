@@ -1,11 +1,14 @@
-html {
+body {
     color: #414A59;
     margin: 0px;
     padding: 0px;
     max-height: 100%;
-    overflow: hidden;
 }
-
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E9ECEF;
+}
 #justify {
     text-align: justify;
     text-justify: inter-word;    

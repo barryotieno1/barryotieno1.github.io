@@ -1,5 +1,9 @@
-body {
+html {
     color: #414A59;
+    margin: 0px;
+    padding: 0px;
+    max-height: 100%;
+    overflow: hidden;
 }
 
 #justify {
@@ -36,7 +40,6 @@ a {
 }
 
 .border {
-    border: #414A59;
-    border-style: solid;
-    border-radius: 20px;
+    border: 0.5px solid #414A59 !important;
+    border-radius: 30px;
 }
